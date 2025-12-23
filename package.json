@@ -1,0 +1,21 @@
+{
+  "name": "opencartautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testEnvRun": "npx playwright test --config=playwright_test.config.ts",
+    "uatEnvRun": "npx playwright test --config=playwright_UAT.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "playwright-html-reporter": "^0.1.11"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

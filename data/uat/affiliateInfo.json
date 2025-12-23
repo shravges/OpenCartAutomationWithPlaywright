@@ -1,0 +1,7 @@
+{
+    "company":"test company",
+    "website":"test.com",
+    "taxid":"12345",
+    "paymentmethod":"Bank Transfer",
+    "paypalemail":"test@gmail.com"
+}

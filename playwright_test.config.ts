@@ -22,7 +22,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html'], ['list'], ['playwright-html-reporter', { 
+  reporter: [['html'], ['list'],['allure-playwright'], ['playwright-html-reporter', { 
       testFolder: 'tests',
       title: 'Opencart HTML Report',
       project: 'Opencart UI Tests',
@@ -42,7 +42,9 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     baseURL: 'https://naveenautomationlabs.com',
-    video: 'on'
+    video: 'on',
+    screenshot: 'on',
+    headless: true
   },
 
   metadata: {

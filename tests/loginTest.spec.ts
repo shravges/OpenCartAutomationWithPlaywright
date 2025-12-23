@@ -6,3 +6,7 @@ test('Check OpneCart Login', async ({page}, testInfo) =>{
     await openCartlogin.goToOpenCart();
     await openCartlogin.loginToOpenCart(testInfo.project.metadata.username, testInfo.project.metadata.userpassword);
 })
+
+test.skip('sample test', async() =>{
+    console.log('sample test case to be skipped');
+})

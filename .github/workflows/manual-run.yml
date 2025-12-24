@@ -19,8 +19,10 @@ on:
         default: 'test'
         type: choice
         options:
+          - dev
           - test
-          - uat
+          - stage
+          - prod
 
       browser:
         description: 'Select Browser'

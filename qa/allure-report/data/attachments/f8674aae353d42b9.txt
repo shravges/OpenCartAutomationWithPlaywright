@@ -1,0 +1,12 @@
+https://naveenautomationlabs.com/opencart/index.php?route=account/login
+Waited for visibility of locator getByRole('heading', { name: 'Returning Customer' })
+Clicked on element getByRole('link', { name: 'Edit your affiliate information' })
+Waited for visibility of locator getByRole('heading', { name: 'Your Affiliate Information' })
+Entered text test company in locator getByRole('textbox', { name: 'Company' })
+Entered text test.com in locator getByRole('textbox', { name: 'Web Site' })
+Entered text 12345 in locator getByRole('textbox', { name: 'Tax ID' })
+Entered text test@gmail.com in locator getByRole('textbox', { name: 'PayPal Email Account' })
+Clicked on element getByRole('button', { name: 'Continue' })
+Waited for visibility of locator getByRole('heading', { name: 'My Account' })
+Waited for visibility of locator locator('div.alert.alert-success.alert-dismissible')
+Text received from locator locator('div.alert.alert-success.alert-dismissible') is  Success: Your account has been successfully updated.

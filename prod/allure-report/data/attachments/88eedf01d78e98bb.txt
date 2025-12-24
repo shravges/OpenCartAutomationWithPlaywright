@@ -1,0 +1,6 @@
+https://naveenautomationlabs.com/opencart/index.php?route=account/login
+Waited for visibility of locator getByRole('heading', { name: 'Returning Customer' })
+Clicked on element getByRole('link', { name: 'Your Reward Points' })
+Waited for visibility of locator getByRole('heading', { name: 'Your Reward Points' })
+Text received from locator locator('div#content p') is Your total number of reward points is: 0.
+Total reward points received =0
